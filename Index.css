@@ -33,11 +33,14 @@ border:15px;
 }
 /*Pic of Me*/
 #me {
+    display:grid;
+    grid-template-columns:none;
     height: 600px;
     width: 650px;
     float: left;
     padding-top: 50px;
     padding-left: 25px;
+   
 
 }
 /*My logo*/
@@ -88,9 +91,15 @@ width:200px;
 }
 /*blessed,chosen..*/
 .Mheader{
+    height:100%;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     display: inline-block;
     font-size: 25px;
-    border-color:blue;
+    border-top:250px;
+    
 
 
 }
@@ -107,6 +116,8 @@ width:200px;
 
 }
 #FTE{
+    display: grid;
+    grid-template-columns:none;
     float:inline-end;
     text-align:left;
     font-size:50px;
